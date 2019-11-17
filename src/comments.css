@@ -1,0 +1,14 @@
+.avatar{
+    background-color: rgb(236, 176, 11);
+    width:52px;
+    height:52px;
+    margin-right:10px;
+    float:left;
+}
+.avatarComment{
+    background-color: rgb(207, 205, 197);
+    width:52px;
+    height:52px;
+    margin-left:20px;
+    float:left;
+}
