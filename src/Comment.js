@@ -30,15 +30,13 @@ export default class Comments extends React.Component {
                             <h1 className='font-weight-light'>Comments #{this.props.activeItem && this.props.activeItem.title}</h1>
                             <ul className='list-group list-group-flush'>
                                 { this.props.activeItem &&
-                                    this.props.activeItem.comments.map((comment) =>     
-                                                                        
+                                    this.props.activeItem.comments.map((comment) =>                                                                           
                                         <li 
                                             className='list-group-item'
                                             key={comment.id}>
                                                 <div className='avatar'/>
                                                 {comment.text}
-                                        </li>
-                                        
+                                        </li>                                        
                                     )
                                 } 
                             </ul>                           
