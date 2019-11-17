@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Dairy-App/static/css/main.c7c275da.chunk.css",
-    "main.js": "/Dairy-App/static/js/main.8954e80f.chunk.js",
-    "main.js.map": "/Dairy-App/static/js/main.8954e80f.chunk.js.map",
+    "main.js": "/Dairy-App/static/js/main.8c40b73e.chunk.js",
+    "main.js.map": "/Dairy-App/static/js/main.8c40b73e.chunk.js.map",
     "runtime-main.js": "/Dairy-App/static/js/runtime-main.828a2314.js",
     "runtime-main.js.map": "/Dairy-App/static/js/runtime-main.828a2314.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/Dairy-App/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.4cca6840.chunk.js": "/Dairy-App/static/js/2.4cca6840.chunk.js",
     "static/js/2.4cca6840.chunk.js.map": "/Dairy-App/static/js/2.4cca6840.chunk.js.map",
     "index.html": "/Dairy-App/index.html",
-    "precache-manifest.11d902ed9eaec82998e2244a8e84f295.js": "/Dairy-App/precache-manifest.11d902ed9eaec82998e2244a8e84f295.js",
+    "precache-manifest.127cf694b212429bbaf6a10bbce49704.js": "/Dairy-App/precache-manifest.127cf694b212429bbaf6a10bbce49704.js",
     "service-worker.js": "/Dairy-App/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/Dairy-App/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.c7c275da.chunk.css.map": "/Dairy-App/static/css/main.c7c275da.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.4cca6840.chunk.js",
     "static/css/main.c7c275da.chunk.css",
-    "static/js/main.8954e80f.chunk.js"
+    "static/js/main.8c40b73e.chunk.js"
   ]
 }
