@@ -40,9 +40,10 @@ export default class Comments extends React.Component {
                                     )
                                 } 
                             </ul>                           
-                            <div className='form-group mt-3'>
+                            <div className='form-group mt-3'>                            
+                                <div className='avatarComment'/>
                                 <textarea 
-                                    className='form-control'
+                                    className='ml-2'
                                     rows='4'
                                     value={this.state.value}
                                     onChange={this.handleChange}

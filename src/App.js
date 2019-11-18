@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import List from './List';
-import Comments from './Comment';
-import SideBar from './SideBar';
+import List from './components/List';
+import Comments from './components/Comment';
+import SideBar from './components/SideBar';
+import $ from 'jquery';
 
 class App extends React.Component {
   constructor(props){
@@ -13,19 +14,23 @@ class App extends React.Component {
       activeItem:{},
       isHidden: true, 
     };
-    this.remove = this.remove.bind(this);
+    this.removeItem = this.removeItem.bind(this);
   }
 
   componentDidMount(){
     const items = JSON.parse(window.localStorage.getItem('savedList'))||[];
     this.setState({items});
+
+    $('.list-group').on('click','li', function(){
+      $(this).addClass('actived').siblings().removeClass('actived');
+   });
   }
 
   handleChange = (e) => {
     this.setState({text: e.target.value})
   }
 
-  onSubmit = (e) =>{
+  addItem = (e) =>{
     e.preventDefault();
     let text = this.state.text.trim();
     if (!text.length) {
@@ -42,7 +47,7 @@ class App extends React.Component {
     );
   }
 
-  remove = (index) =>{
+  removeItem = index =>{
     let items = this.state.items.slice();
     items.splice(index, 1);
     this.setState({
@@ -51,7 +56,7 @@ class App extends React.Component {
     this.saveToLocalStorage
     );
   }
-
+      
   addComment = (inputComment) => {
      const commentCopy = this.state.items.map(item => {
        if (item.id === this.state.activeItem.id) {
@@ -86,7 +91,7 @@ class App extends React.Component {
             <div className='card'>
             <div className='card-body'>
               <h1 className='font-weight-light'>Items</h1>
-              <form className='app' onSubmit={this.onSubmit}>
+              <form className='app' onSubmit={this.addItem}>
                 <div className='row'>
                   <div className='col-sm-9'>
                     <input 
@@ -108,7 +113,7 @@ class App extends React.Component {
                       item={item} 
                       key={item.id} 
                       id={index} 
-                      removeItem={this.remove} 
+                      removeItem={this.removeItem} 
                       setActiveComment={() => this.setState({ activeItem: item })} 
                       toggleHidden={() => this.setState({ isHidden: false })}
                     />

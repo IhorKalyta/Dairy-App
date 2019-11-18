@@ -2,8 +2,8 @@ import React from 'react';
 
 export default class List extends React.Component {
 
-  removeItem = (index) =>{
-    this.props.remove(index);
+  removeItem = (id) =>{
+    this.props.removeItem(id);
   }
 
   render(){
