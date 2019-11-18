@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dairy-App/precache-manifest.c3174e5c0297a8625ff30020dafe3cd5.js"
+  "/Dairy-App/precache-manifest.f794615bc69c776034c82f1869da8a45.js"
 );
 
 self.addEventListener('message', (event) => {
