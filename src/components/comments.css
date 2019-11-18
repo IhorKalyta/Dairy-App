@@ -5,10 +5,11 @@
     margin-right:10px;
     float:left;
 }
-.avatarComment{
+
+.box{
     background-color: rgb(207, 205, 197);
-    width:52px;
-    height:52px;
+    width:53px;
+    height:53px;
     margin-left:20px;
     float:left;
 }

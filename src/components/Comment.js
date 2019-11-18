@@ -41,7 +41,7 @@ export default class Comments extends React.Component {
                                 } 
                             </ul>                           
                             <div className='form-group mt-3'>                            
-                                <div className='avatarComment'/>
+                                <div className='box'/>
                                 <textarea 
                                     className='ml-2'
                                     rows='4'
