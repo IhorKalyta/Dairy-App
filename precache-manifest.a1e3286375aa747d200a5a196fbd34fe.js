@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1caa44dfea3cfc0b91f934ae3af6a3e",
+    "revision": "879daca64bd533450c719f87611dbf06",
     "url": "/Dairy-App/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dairy-App/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "0c2cda79448df7627119",
-    "url": "/Dairy-App/static/css/main.8de8e502.chunk.css"
+    "revision": "4c47041d29faab38e411",
+    "url": "/Dairy-App/static/css/main.32e07eb9.chunk.css"
   },
   {
     "revision": "b97ca259901cbed701a6",
     "url": "/Dairy-App/static/js/2.87019b3f.chunk.js"
   },
   {
-    "revision": "0c2cda79448df7627119",
+    "revision": "4c47041d29faab38e411",
     "url": "/Dairy-App/static/js/main.b3e5a07f.chunk.js"
   },
   {
