@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Dairy-App/static/css/main.e65a942e.chunk.css",
-    "main.js": "/Dairy-App/static/js/main.231882c9.chunk.js",
-    "main.js.map": "/Dairy-App/static/js/main.231882c9.chunk.js.map",
+    "main.css": "/Dairy-App/static/css/main.bc1306a4.chunk.css",
+    "main.js": "/Dairy-App/static/js/main.e4b613bb.chunk.js",
+    "main.js.map": "/Dairy-App/static/js/main.e4b613bb.chunk.js.map",
     "runtime-main.js": "/Dairy-App/static/js/runtime-main.828a2314.js",
     "runtime-main.js.map": "/Dairy-App/static/js/runtime-main.828a2314.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/Dairy-App/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.dd992742.chunk.js": "/Dairy-App/static/js/2.dd992742.chunk.js",
-    "static/js/2.dd992742.chunk.js.map": "/Dairy-App/static/js/2.dd992742.chunk.js.map",
+    "static/js/2.87019b3f.chunk.js": "/Dairy-App/static/js/2.87019b3f.chunk.js",
+    "static/js/2.87019b3f.chunk.js.map": "/Dairy-App/static/js/2.87019b3f.chunk.js.map",
     "index.html": "/Dairy-App/index.html",
-    "precache-manifest.6da8e4fa2d638000e565847c3b474708.js": "/Dairy-App/precache-manifest.6da8e4fa2d638000e565847c3b474708.js",
+    "precache-manifest.95820624ff4c288f6702f1318efe916a.js": "/Dairy-App/precache-manifest.95820624ff4c288f6702f1318efe916a.js",
     "service-worker.js": "/Dairy-App/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/Dairy-App/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.e65a942e.chunk.css.map": "/Dairy-App/static/css/main.e65a942e.chunk.css.map"
+    "static/css/main.bc1306a4.chunk.css.map": "/Dairy-App/static/css/main.bc1306a4.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.828a2314.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.dd992742.chunk.js",
-    "static/css/main.e65a942e.chunk.css",
-    "static/js/main.231882c9.chunk.js"
+    "static/js/2.87019b3f.chunk.js",
+    "static/css/main.bc1306a4.chunk.css",
+    "static/js/main.e4b613bb.chunk.js"
   ]
 }
