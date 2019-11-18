@@ -25,30 +25,36 @@ export default class Comments extends React.Component {
     render() {
         return (
             <div className='col-sm-6'>
-                <div className='card'>
+                <div className='card border-dark'>
                     <div className='card-body'>
-                            <h1 className='font-weight-light'>Comments #{this.props.activeItem && this.props.activeItem.title}</h1>
+                            <h1 className='font-weight-light'>
+                                Comments #{this.props.activeItem && this.props.activeItem.title}
+                            </h1>
                             <ul className='list-group list-group-flush'>
                                 { this.props.activeItem &&
                                     this.props.activeItem.comments.map((comment) =>                                                                           
                                         <li 
                                             className='list-group-item'
                                             key={comment.id}>
-                                                <div className='avatar'/>
+                                                <span className='orangeBox'/>
                                                 {comment.text}
                                         </li>                                        
                                     )
                                 } 
                             </ul>                           
-                            <div className='form-group mt-3'>                            
-                                <div className='box'/>
-                                <textarea 
-                                    className='ml-2'
-                                    rows='4'
-                                    value={this.state.value}
-                                    onChange={this.handleChange}
-                                    onKeyPress={this.handleEnter}
-                                />
+                            <div className='form-group row mt-3'>                            
+                                <div className='col-sm-2'>
+                                    <span className='grayBox'/>
+                                </div>
+                                <div className="col-sm-10">
+                                    <textarea 
+                                        className='form-control'
+                                        rows='4'
+                                        value={this.state.value}
+                                        onChange={this.handleChange}
+                                        onKeyPress={this.handleEnter}
+                                    />
+                                </div>
                             </div>
                     </div>
                 </div>

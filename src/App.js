@@ -88,7 +88,7 @@ class App extends React.Component {
         <div className='container mt-3'>
           <div className='row'>
             <div className='col-sm-6'>
-            <div className='card'>
+            <div className='card border-dark item'>
             <div className='card-body'>
               <h1 className='font-weight-light'>Items</h1>
               <form className='app' onSubmit={this.addItem}>

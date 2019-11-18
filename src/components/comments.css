@@ -1,4 +1,4 @@
-.avatar{
+.orangeBox{
     background-color: rgb(236, 176, 11);
     width:52px;
     height:52px;
@@ -6,10 +6,10 @@
     float:left;
 }
 
-.box{
+.grayBox{
     background-color: rgb(207, 205, 197);
-    width:53px;
-    height:53px;
+    width:52px;
+    height:52px;
     margin-left:20px;
     float:left;
 }
