@@ -52,6 +52,7 @@ class App extends React.Component {
     items.splice(index, 1);
     this.setState({
       items,
+      isHidden:true,
     },
     this.saveToLocalStorage
     );
@@ -85,10 +86,10 @@ class App extends React.Component {
     return (
       <div className='App'>
         <SideBar/>
-        <div className='container mt-3'>
+        <div className='container mt-3 mb-3'>
           <div className='row'>
             <div className='col-sm-6'>
-            <div className='card border-dark item'>
+            <div className='card item'>
             <div className='card-body'>
               <h1 className='font-weight-light'>Items</h1>
               <form className='app' onSubmit={this.addItem}>

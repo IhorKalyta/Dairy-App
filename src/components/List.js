@@ -2,8 +2,9 @@ import React from 'react';
 
 export default class List extends React.Component {
 
-  removeItem = (id) =>{
-    this.props.removeItem(id);
+  removeItem = (e) =>{
+    e.stopPropagation();
+    this.props.removeItem(this.props.id);
   }
 
   render(){
@@ -14,7 +15,7 @@ export default class List extends React.Component {
           <h3>{this.props.item.title}</h3>
           <span className='badge badge-info badge-pill'> {this.props.item.commentsCount}</span>
           <div className='button-container'>
-              <button className='btn btn-outline-danger' onClick={() => this.props.removeItem(this.props.id)}>Delete</button>
+              <button className='btn btn-outline-danger' onClick={this.removeItem}>Delete</button>
           </div>
       </li>
     );

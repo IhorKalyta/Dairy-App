@@ -25,7 +25,7 @@ export default class Comments extends React.Component {
     render() {
         return (
             <div className='col-sm-6'>
-                <div className='card border-dark'>
+                <div className='card'>
                     <div className='card-body'>
                             <h1 className='font-weight-light'>
                                 Comments #{this.props.activeItem && this.props.activeItem.title}
